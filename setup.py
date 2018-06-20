@@ -18,7 +18,7 @@ After it is installed you can check your current temperature by running:
 from setuptools import setup
 
 setup(name='digital-root',
-      version='0.2',
+      version='0.3',
       description='Script for calculating digital root of an integer number.',
       long_description=__doc__,
       long_description_content_type='text/markdown',

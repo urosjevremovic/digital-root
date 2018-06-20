@@ -12,7 +12,7 @@ def digital_root(n):
 def main():
     user_input = input('Enter the number you want to calculate digital root for:\n')
     try:
-        print(digital_root(int(user_input)))
+        print(f'Digital root for a given number is {digital_root(int(user_input))}\n')
     except ValueError:
         print('You can only calculate digital root of an integer number')
 
